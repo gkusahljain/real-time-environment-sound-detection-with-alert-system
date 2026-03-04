@@ -9,6 +9,17 @@ When a critical sound is detected, IntelliSound triggers **instant alerts and SM
 
 ---
 
+## 📸 Screenshots
+
+### IntelliSound Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Mel Spectrogram
+![Spectrogram](screenshots/spectrogram.png)
+
+### Sound Detection Results
+![Detection](screenshots/detection.png)
+
 # 🚀 Key Features
 
 ### 🔊 Real-Time Audio Monitoring
@@ -231,20 +242,16 @@ or run **Live Server** in VS Code.
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## IntelliSound Dashboard
-
+### IntelliSound Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
-## Mel Spectrogram Visualization
-
+### Mel Spectrogram Visualization
 ![Spectrogram](screenshots/spectrogram.png)
 
-## Sound Detection Results
-
-![Detection](screenshots/detection_results.png)
-
+### Sound Detection Results
+![Detection](screenshots/detected_sounds.png)
 ---
 
 # 📊 Example Detected Sounds
