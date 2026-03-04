@@ -9,16 +9,7 @@ When a critical sound is detected, IntelliSound triggers **instant alerts and SM
 
 ---
 
-## 📸 Screenshots
 
-### IntelliSound Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Mel Spectrogram
-![Spectrogram](screenshots/spectrogram.png)
-
-### Sound Detection Results
-![Detection](screenshots/detection.png)
 
 # 🚀 Key Features
 
