@@ -1,10 +1,34 @@
-*
-!*/
-!*.*
-*.hdf5
-*.pyc
-*.wav
-__pycache__
-_logs
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+panns_env/
+.env
+
+# Models and Large Files
 *.pth
-paper_statistics
+*.h5
+*.hdf5
+panns311/
+metadata/
+audio_samples/
+paper_statistics.zip
+paper_statistics/
+
+# Application Specific
+backend/events.db
+temp_audio/
+backend/temp_audio/
+
+# Visualizations
+resources/sed_*.png
+resources/six_figures.png
+resources/mAP_table.png
+
+# System
+.DS_Store
+Thumbs.db

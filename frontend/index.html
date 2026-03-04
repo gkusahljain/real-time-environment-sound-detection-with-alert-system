@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>IntelliSound – AI Safety Monitoring</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-wrapper">
+
+    <h1 class="title">
+      🎧 <span>IntelliSound</span>
+    </h1>
+
+    <!-- Controls -->
+    <div class="control-panel glass">
+      <div class="upload-row">
+        <input type="file" id="fileInput" accept=".wav">
+        <button onclick="upload()" class="primary-btn">
+          Upload & Analyze
+        </button>
+      </div>
+
+      <div class="monitor-row">
+        <button onclick="start()" class="success-btn">
+          ▶ Start Monitoring
+        </button>
+        <button onclick="stop()" class="danger-btn">
+          ■ Stop
+        </button>
+      </div>
+    </div>
+
+    <!-- Alerts -->
+    <div id="alerts-container" class="glass alert-box idle">
+      <h2>🚨 Alerts</h2>
+      <div id="alerts">
+        <p class="hint">No active alerts</p>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div class="glass results-box">
+      <h2>🎵 Detected Sounds</h2>
+      <div id="results">
+        <p class="hint">Waiting for audio input…</p>
+      </div>
+      
+      <div id="spectrogram-container" style="margin-top: 20px; text-align: center;">
+        <!-- Spectrogram will be injected here -->
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
